@@ -1,0 +1,5 @@
+Move database information to a config file.
+Move cities and their geo locations to a config file.
+Standardize all line endings.
+Switch from storing hashtags in a list in a field to its own table.
+	This was a last minute feature I added and I never had time to implement it properly.
