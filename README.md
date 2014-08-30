@@ -4,6 +4,10 @@
 This is a project I made in my senior year of high school. It was an alternative assignment for my
 Intro to Internet Computing class.
 
+## Screenshots
+![Image of main page](/screenshots/main.png?raw=true "Screenshot of Main Page")
+![Image of specifics page](/screenshots/specific.png?raw=true "Screenshot of Specific Tweets")
+
 ## System Recommendations
 Below are the relevant specs of the system I ran this on. These are in no way minimum requirements, 
 just what happened to work for me.
