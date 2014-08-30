@@ -58,7 +58,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="favicon.ico" />
         <title>Tweetalyzer</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/template.css" rel="stylesheet" />
         <!-- Just for debugging purposes. Don't actually copy this line! -->
         <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -94,6 +94,6 @@
 	</div>	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	</body>
 </html>

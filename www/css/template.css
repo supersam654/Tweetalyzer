@@ -1,0 +1,54 @@
+
+body {
+    padding-top: 50px;
+}
+h1 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.box {
+    border: 1px solid #BBBBBB;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 48%;
+	min-height: 100px;
+}
+
+.major {
+	font-size: 44px;
+	background-color: #0B62A4; 
+	color: #999999;
+}
+
+.major:hover  .major:focus .major:active {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    border-color: #ADADAD;
+    background-color: #000000;
+	color: #FFFFFF;
+}
+
+.right {
+	text-align: left;
+}
+
+.left {
+	text-align: right;
+}
+
+.full {
+    width: 98%;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #E6E6E6;
+}

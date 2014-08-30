@@ -1,7 +1,4 @@
 <?php
-	error_reporting(E_ALL);
-	ini_set('display_errors', 1);
-
 	require 'validation.php';
 	
 	$location = get_location();
@@ -81,12 +78,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="favicon.ico" />
         <title>Tweetalyzer</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 		<link href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css" rel="stylesheet" />
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" />
         <link href="css/template.css" rel="stylesheet" />
-        <!-- Just for debugging purposes. Don't actually copy this line! -->
-        <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -160,12 +155,11 @@
 	</div>	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 	<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
 	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 	<script>
-		//<!--
 		// Populates the graph with data.
 		new Morris.Bar({
 			element: 'tweets',
@@ -250,7 +244,6 @@
 		}
 
 		window.onload=beginrefresh
-		//-->
 	</script>
 	</body>
 </html>
