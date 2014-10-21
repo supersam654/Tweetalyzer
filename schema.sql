@@ -11,7 +11,7 @@ CREATE DATABASE IF NOT EXISTS twitter_db;
 GRANT ALL PRIVILEGES ON twitter_db.* TO 'twitter'@'localhost' IDENTIFIED BY 'tweet_tweet';
 FLUSH PRIVILEGES;
 
-CREATE TABLE IF NOT EXISTS twitter_db.tweets_db (
+CREATE TABLE IF NOT EXISTS twitter_db.tweets (
         id BIGINT(20) unsigned NOT NULL AUTO_INCREMENT,
         text varchar(160) NOT NULL,
         hash_tags varchar(160) NOT NULL,
