@@ -40,8 +40,6 @@ Python also needs `TwitterAPI`. Full installation instructions can be found [her
 
 Installing `python-pip` and `python-mysql` are both easy but platform specific and therefore will not be covered in this tutorial.
 
-----------
-
 ## Included Files
 These instructions should have come with a few separate files including:
 
@@ -56,14 +54,10 @@ These instructions should have come with a few separate files including:
 ### Specific Website Files
 The frontend site is a pretty simple website. It's basically a couple of PHP files, a tiny bit of css customization, and a few javascript libraries ([JQuery](http://jquery.com/), [JQuery Datepicker](http://jqueryui.com/datepicker/), [Bootstrap](http://getbootstrap.com/), and [Morris Charts](http://www.oesmith.co.uk/morris.js/)). `index.php` is a typical html/php file that pulls hashtags from the database and displays them in a couple of places. `specific.php` is a page that is only accessable via links generated in `index.php`. It shows all tweets that have a certain hashtag and meet other constraints. `validation.php` is a library used by both other files for input sanitization and validation.
 
-----------
-
 ## Running the Project
 Actually running everything is pretty simple. The webserver should be configured to serve up `index.php` by default and everything else should be fine. Note that the python script must always be running in the background. Technically it doesn't have to be running, but then new tweets won't get picked up. I have kept the script running in a few different ways. However, I was most recently successful with `nohup`. Something like this should do:
 
 > `nohup ./project.py &`
-
-----------
 
 ## Room for Improvement
 This project works and it works pretty well. However, given more time or a greater desire to be an absolute perfectionist, I would have:
@@ -74,3 +68,7 @@ This project works and it works pretty well. However, given more time or a great
 * Made the site a bit more mobile friendly.
 * Added more controls for picking which timeframe to pull tweets from (days are okay but hours would be nice).
 * Devised a system to categorize similar tags (such as #job and #jobs) into one "super tag" (the frontend graph would then display the most common super tags).
+
+## Screenshots
+![Image of main page](/screenshots/main.png?raw=true "Screenshot of Main Page")
+![Image of specifics page](/screenshots/specific.png?raw=true "Screenshot of Specific Tweets")
